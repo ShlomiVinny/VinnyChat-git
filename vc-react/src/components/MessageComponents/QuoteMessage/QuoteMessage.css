@@ -1,0 +1,23 @@
+.vc-main-input-quote {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.vc-main-input-quote.hidden {
+    display: none;
+}
+
+.vc-main-input-quote.visible {
+    display: block;
+}
+
+.vc-btn.hide-quote {
+    background: none;
+    border: 0;
+    font-size: 14pt;
+}
+
+.vc-message-quote {
+    margin: 0;
+}

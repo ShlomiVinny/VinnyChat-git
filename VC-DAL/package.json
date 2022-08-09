@@ -1,0 +1,18 @@
+{
+    "name": "vc-dal",
+    "version": "1.0.0",
+    "description": "VC-DAL service lambda",
+    "main": "VC-DAL.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vinny",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^4.7.0",
+        "node-fetch": "^3.2.9"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.2"
+    }
+}

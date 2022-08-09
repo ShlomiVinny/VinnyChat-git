@@ -1,0 +1,103 @@
+.Home {
+    z-index: 999;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #1ba33f;
+    overscroll-behavior-y: contain;
+    position: relative;
+}
+
+.vc-main-input-wrapper {
+    width: 100%;
+    height: 14%;
+    min-height: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.vc-main-input {
+    min-height: min-content;
+    width: 80%;
+    height: 75%;
+    min-height: 75%;
+    overflow: auto;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+.vc-btn {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+
+.vc-btn-emoji {
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    margin-top: 5%;
+    font-size: 14pt;
+}
+
+.vc-btn.send:enabled {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.vc-input-hint {
+    text-align: center;
+    position: absolute;
+    bottom: 8%;
+    background-color: #1ba33f;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+    min-height: min-content;
+    min-width: min-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.vc-hideHints {
+    max-width: fit-content;
+    margin-top: 0.5rem;
+}
+
+.vc-emoji-picker.visible {
+    position: relative;
+}
+
+.vc-emoji-picker.hidden {
+    display: none;
+}
+
+.emoji-picker-react {
+    width: unset !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.vc-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}

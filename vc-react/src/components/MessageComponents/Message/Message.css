@@ -1,0 +1,56 @@
+.vc-message {
+    z-index: 900;
+    align-self: flex-start;
+    text-align: left;
+    min-height: max-content;
+    width: 65vw;
+    border: black 1px solid;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    background-color: beige;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+.vc-message.self {
+    align-self: flex-end;
+    background-color: wheat;
+}
+
+.vc-message.quote {
+    align-self: center;
+    justify-self: center;
+    max-width: 80%;
+}
+
+.vc-sender {
+    color: white;
+    background-color: cadetblue;
+    padding: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.vc-sender.self {
+    background-color: rgb(87, 124, 158);
+}
+
+.vc-sender.quote {
+    background-color: rgb(107, 169, 226);
+    font-size: 10pt;
+}
+
+.vc-content {
+    margin: 0.5rem;
+}
+
+.vc-content.quote {
+    font-size: 10pt;
+    max-height: 4.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

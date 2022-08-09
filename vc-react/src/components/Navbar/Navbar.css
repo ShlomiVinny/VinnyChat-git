@@ -1,0 +1,106 @@
+.navbar-container {
+    width: 100%;
+    height: 3rem;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.navbar-wrapper {
+    z-index: 1000;
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80%;
+    margin-left: 0.5rem;
+    justify-self: flex-start;
+}
+
+.logout-btn {
+    width: 4rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.router-link {
+    text-decoration: none;
+}
+
+.home-link {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-link {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.settings-link {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.vc-navbar-menu.hidden {
+    left: -18rem;
+}
+
+.vc-navbar-menu.visible {
+    left: 0;
+}
+
+.vc-navbar-menu {
+    z-index: 1000;
+    position: absolute;
+    top: 4rem;
+    background-color: rgba(94, 94, 94, 0.95);
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    padding: 1rem;
+    transition: 0.8s;
+}
+
+.menu-header {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-text {
+    text-align: left;
+    width: 100%;
+    color: white;
+}
+
+.menu-seperator {
+    border-bottom: 3px dotted rgb(83, 0, 21);
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.vc-connected-users {
+    color: rgb(255, 154, 38);
+    overflow: hidden;
+    max-height: 50%;
+}
+
+.vc-backdrop {
+    backdrop-filter: blur(10px);
+}
